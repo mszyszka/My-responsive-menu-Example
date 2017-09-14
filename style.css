@@ -135,6 +135,35 @@ a {
     display: none;
 }
 
+/*Opening and closing submenus////////////////////////*/
+
+
+.grapes-ul.submenu-opened {
+    display: block;
+    background-color: 000000;
+    opacity: 0.2;
+}
+
+
+.apples-ul.submenu-opened {
+    display: block;
+}
+
+.oranges-ul.submenu-opened {
+    display: block;
+}
+.pineapple-ul.submenu-opened {
+    display: block;
+}
+
+.bananas-ul.submenu-opened {
+    display: block;
+}
+
+
+
+/*/////////////////////////////////////////////////////*/
+
 
 /*//////////////////////////////////////////////////////////////////////*/
 

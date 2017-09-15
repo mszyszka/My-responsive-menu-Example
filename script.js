@@ -20,3 +20,5 @@ function openSubmenuBananas(x) {
     document.getElementsByClassName("bananas-ul")[0].classList.toggle("submenu-opened");
 }
 
+
+

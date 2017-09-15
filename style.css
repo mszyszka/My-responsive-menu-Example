@@ -1,4 +1,4 @@
-body {
+    body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
@@ -149,8 +149,6 @@ a {
 
 .grapes-ul.submenu-opened {
     display: block;
-    background-color: 000000;
-    opacity: 0.2;
 }
 
 .apples-ul.submenu-opened {
@@ -247,11 +245,25 @@ a {
 /*////////////////////////////////////Style for width over 840px/////////////////////////////////////////*/
 
 @media(min-width: 830px) {
+    #logo {
+        height: 80px;
+        line-height: 5rem;
+        margin: 0;
+    }
+    #container {
+        width: 680px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
     .page-nav .navigation-menu {
         display: inline-block;
         position: absolute;
-        right: 60px;
+        right: 0;
         line-height: 3.15rem;
+    }
+    .page-nav .navigation-menu li a {
+        font-size: 1.3rem;
     }
     .page-nav .navigation-menu li {
         display: inline-block;
@@ -264,7 +276,118 @@ a {
     .hamburger-container {
         display: none;
     }
+    /*//////////////////////////Submenus////////////////////////////////////*/
+    .grapes-ul {
+        list-style-type: none;
+        padding: 30px 0 0 0;
+        font-size: 1.1rem;
+        font-style: normal;
+        display: none;
+    }
+    .apples-ul {
+        list-style-type: none;
+        padding: 30px 0 0 0;
+        font-size: 1.1rem;
+        font-style: normal;
+        display: none;
+    }
+    .oranges-ul {
+        list-style-type: none;
+        padding: 30px 0 0 0;
+        font-size: 1.1rem;
+        font-style: normal;
+        display: none;
+    }
+    .pineapple-ul {
+        list-style-type: none;
+        padding: 30px 0 0 0;
+        font-size: 1.1rem;
+        font-style: normal;
+        display: none;
+    }
+    .bananas-ul {
+        list-style-type: none;
+        padding: 30px 0 0 0;
+        font-size: 1.1rem;
+        font-style: normal;
+        display: none;
+    }
+    /*Opening and closing submenus*/
+    .grapes-ul.submenu-opened {
+        display: inline-grid;
+        position: absolute;
+        top: 60px;
+        left: -10px;
+        /* text-align: left; */
+    }
+    .grapes-ul.submenu-opened li {
+        text-align: left;
+        padding: 0px;
+    }
+    .apples-ul.submenu-opened {
+        display: inline-grid;
+        position: absolute;
+        top: 60px;
+        left: 80px;
+    }
+    .apples-ul.submenu-opened li {
+        text-align: left;
+        padding: 0px;
+    }
+    .oranges-ul.submenu-opened {
+        display: inline-grid;
+        position: absolute;
+        top: 60px;
+        left: 167px;
+    }
+    .oranges-ul.submenu-opened li {
+        text-align: left;
+        padding: 0px;
+    }
+    .pineapple-ul.submenu-opened {
+        display: inline-grid;
+        position: absolute;
+        top: 60px;
+        left: 272px;
+    }
+    .pineapple-ul.submenu-opened li {
+        text-align: left;
+        padding: 0px;
+    }
+    .bananas-ul.submenu-opened {
+        display: inline-grid;
+        position: absolute;
+        top: 60px;
+        right: -28px;
+    }
+    .bananas-ul.submenu-opened li {
+        text-align: left;
+        padding: 0px;
+    }
+    /*////////////////////////////////*/
 }
 
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*///////////////////////////////////style for width over 950px///////////////////////////////////////*/
+
+@media(min-width: 950px) {
+    #container {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    /*///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    /*///////////////////////////////////style for width over 1150px///////////////////////////////////////*/
+    @media(min-width: 1150px) {
+        #container {
+            width: 950px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+    }
+    /*///////////////////////////////////////////////////////////////////////////////////////////////////////*/

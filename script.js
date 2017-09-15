@@ -4,19 +4,40 @@ function hamburgerBtn(x) {
 }
 
 function openSubmenuGrapes(x) {
+    document.getElementsByClassName("oranges-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("pineapple-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("bananas-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("apples-ul")[0].classList.remove("submenu-opened");
     document.getElementsByClassName("grapes-ul")[0].classList.toggle("submenu-opened");
+    
 }
 
 function openSubmenuApples(x) {
+    document.getElementsByClassName("grapes-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("oranges-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("pineapple-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("bananas-ul")[0].classList.remove("submenu-opened");
     document.getElementsByClassName("apples-ul")[0].classList.toggle("submenu-opened");
 }
 function openSubmenuOranges(x) {
+    document.getElementsByClassName("grapes-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("pineapple-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("bananas-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("apples-ul")[0].classList.remove("submenu-opened");
     document.getElementsByClassName("oranges-ul")[0].classList.toggle("submenu-opened");
 }
 function openSubmenuPineapple(x) {
+    document.getElementsByClassName("grapes-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("oranges-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("bananas-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("apples-ul")[0].classList.remove("submenu-opened");
     document.getElementsByClassName("pineapple-ul")[0].classList.toggle("submenu-opened");
 }
 function openSubmenuBananas(x) {
+    document.getElementsByClassName("grapes-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("oranges-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("pineapple-ul")[0].classList.remove("submenu-opened");
+    document.getElementsByClassName("apples-ul")[0].classList.remove("submenu-opened");
     document.getElementsByClassName("bananas-ul")[0].classList.toggle("submenu-opened");
 }
 
